@@ -17,7 +17,7 @@
                     <span>GofarP</span>
                 </a>
 
-                <a href="https://www.linkedin.com/in/gofar-putra-42555614a/" target="_blank" class="flex items-center gap-2 text-white hover:text-cyan-300">
+                <a href="https://www.linkedin.com/in/gofar-putra-perdana-42555614a/" target="_blank" class="flex items-center gap-2 text-white hover:text-cyan-300">
                     <i class="fab fa-linkedin"></i>
                     <span>Gofar Putra Perdana</span>
                 </a>
