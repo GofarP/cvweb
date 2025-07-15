@@ -17,7 +17,8 @@
                     <span>GofarP</span>
                 </a>
 
-                <a href="https://www.linkedin.com/in/gofar-putra-perdana-42555614a/" target="_blank" class="flex items-center gap-2 text-white hover:text-cyan-300">
+                <a href="https://www.linkedin.com/in/gofar-putra-perdana-42555614a/" target="_blank"
+                    class="flex items-center gap-2 text-white hover:text-cyan-300">
                     <i class="fab fa-linkedin"></i>
                     <span>Gofar Putra Perdana </span>
                 </a>
@@ -48,6 +49,8 @@
                 <SkillCard label="Arduino & IOT"
                     img="https://img.icons8.com/?size=100&id=13444&format=png&color=000000" />
                 <SkillCard label="Vue" img="https://img.icons8.com/?size=100&id=dzfo6UeXW9h7&format=png&color=000000" />
+                <SkillCard label="Tailwind CSS"
+                    img="https://img.icons8.com/?size=100&id=4PiNHtUJVbLs&format=png&color=000000" />
             </div>
         </section>
 
