@@ -2,7 +2,7 @@
     <div class=" bg-gray-50 text-gray-800">
         <header class="bg-cyan-600 text-white py-10 text-center">
             <img src="/src/image/gofar.jpg" alt="Profile" class="w-24 h-24 rounded-full mx-auto mb-4" />
-            <h1 class="text-3xl font-bold">Gofar Putra Perdana</h1>
+            <h1 class="text-3xl font-bold">Gofar Putra</h1>
             <p class="text-sm mt-1">Web Developer | Mobile Developer | IoT Developer</p>
 
             <div class="flex flex-wrap gap-6 justify-center mt-4">
