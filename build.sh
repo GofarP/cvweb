@@ -1,8 +1,10 @@
 echo "Building app..."
 npm run build
 
-rm dist/index.html
+# Move index.html from dist to root
+mv dist/index.html .
 
+# Copy remaining dist files
 cp -r dist/* .
 
 git add .
