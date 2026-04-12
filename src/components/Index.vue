@@ -28,7 +28,7 @@
 
         <section class="py-6 text-center">
             <SectionTitle title="Tentang Saya" />
-            <p class="max-w-3xl mx-auto text-md">
+            <p class="max-w-2xl mx-auto text-md">
                 Lulusan S1 Teknik Informatika dari STTI Tanjungpinang, tahun 2021. Memiliki pengalaman dalam
                 pengembangan website menggunakan Laravel dan Livewire, serta dapat mengembangkan aplikasi mobile
                 berbasis Flutter dan juga dapat membuat API. Selain itu juga mempunyai kemampuan dalam perancangan
@@ -54,32 +54,18 @@
             </div>
         </section>
 
-        <section class="py-6 px-6">
+        <section class="py-6 ml-5 px-6">
             <SectionTitle title="Pengalaman Kerja" />
-            <TimelineItem year="Agustus 2023 - April 2025" title="Staff IT - PT Wajah Siba Nusantara" description="
-          Mengembangkan dan menambahkan fitur pada website internal kantor seperti:
-          - Modul akuntansi, absensi, grafik omzet, dan pemesanan.
-          - Pemeliharaan hardware (printer, instalasi CCTV).
-          - Pengembangan beberapa website baru:
-             - https://mencargo.id/
-             - https://www.binusexpress.com/
-             - https://mbscargo.id
-             - https://bestindomodern.com
-          - Membuat aplikasi mobile untuk cek harga dan tracking barang.
-          - Fitur tracking barang berdasarkan website dan chatbot otomatis yang langsung terkirim ke WhatsApp pengguna.
-          - Fitur login dan absensi menggunakan face recognition.
-          - Posting artikel di WordPress.
-          " />
-            <TimelineItem year="2021 - 2023" title="Freelancer" description="
-          - Membuat Aplikasi E-rapor online untuk sekolah.
-          - Membuat prototype IOT gerbang otomatis yang dapat dikendalikan dari aplikasi mobile.
-          - Membuat prototype robot vacuum cleaner dengan ESP32 yang dapat dikendalikan dengan suara dan aplikasi mobile.
-          - Membuat aplikasi daftar kos yang diintegrasikan dengan Mapbox sebagai penunjuk lokasi kos.
-          - Membuat prototype penyiram tanaman otomatis yang terhubung dengan aplikasi mobile.
-          " />
+            <TimelineItem year="Mei 2025 - Sekarang" title="Programmer - PT Ghimli Indonesia"
+                description="• Mengembangkan sistem IoT dan API untuk kebutuhan perusahaan.&#10;• Membantu mengembangkan website dari beberapa department dan integrasi API saat dibutuhkan oleh perusahaan." />
+            <TimelineItem year="Agustus 2023 - April 2025" title="Staff IT - PT Wajah Siba Nusantara"
+                description="• Mengembangkan modul internal: Akuntansi, absensi, grafik omzet, & pemesanan.&#10;• Maintenance hardware (printer, instalasi CCTV).&#10;• Mengembangkan 4 website logistik: mencargo.id, binusexpress.com, mbscargo.id, bestindomodern.com.&#10;• Membuat aplikasi mobile untuk cek harga dan tracking barang.&#10;• Membangun fitur tracking barang via website & chatbot otomatis ke WhatsApp.&#10;• Implementasi login dan absensi menggunakan Face Recognition.&#10;• Mengelola posting artikel di WordPress." />
+
+            <TimelineItem year="2021 - 2025" title="Freelancer"
+                description="• Membuat Aplikasi E-rapor online untuk manajemen sekolah.&#10;• Merancang prototype IoT gerbang otomatis dengan kendali aplikasi mobile.&#10;• Membuat prototype robot vacuum cleaner (ESP32) dengan kendali suara & mobile.&#10;• Mengembangkan aplikasi daftar kos yang terintegrasi dengan Mapbox.&#10;• Merancang prototype penyiram tanaman otomatis terhubung ke aplikasi mobile." />
         </section>
 
-        <section class="py-6 px-6">
+        <section class="py-6 px-6 ml-3 mr-3">
             <SectionTitle title="Pengalaman Organisasi" />
             <TimelineItem year="2019 - 2021" title="Divisi Hardware & Software - Mahasiswa Robotika STTI Tanjungpinang"
                 description="
@@ -90,8 +76,15 @@
 
         <section class="py-6 px-6">
             <SectionTitle title="Proyek" />
-            <ProjectCard title="Website Perusahaan - Mencargo, BinusExpress, MBSCargo, Bestindo Furniture"
-                description="Website untuk mendukung operasional logistik dan furniture. Link: mencargo.id, binusexpress.id, mbscargo.id, bestindofurniture.com" />
+            <ProjectCard title="Sistem Informasi Manajemen Kantor (Simentor) - Bawaslu Batam"
+                description="Sistem informasi berbasis web yang dirancang untuk mengoptimalkan alur koordinasi antar pegawai, pelacakan instruksi tugas, serta memfasilitasi evaluasi kinerja pegawai secara transparan dan terpusat." />
+
+            <ProjectCard title="Website Perusahaan - Logistik & Furniture"
+                description="Website untuk mendukung operasional logistik dan furniture. Link: 
+    <a href='https://mencargo.id' target='_blank' class='text-cyan-600 font-semibold hover:underline'>mencargo.id</a>, 
+    <a href='https://www.binusexpress.com' target='_blank' class='text-cyan-600 font-semibold hover:underline'>binusexpress.com</a>, 
+    <a href='https://mbscargo.id' target='_blank' class='text-cyan-600 font-semibold hover:underline'>mbscargo.id</a>, 
+    <a href='https://bestindofurniture.com' target='_blank' class='text-cyan-600 font-semibold hover:underline'>bestindofurniture.com</a>" />
             <ProjectCard title="Aplikasi Mobile Tracking"
                 description="Aplikasi Flutter untuk cek harga dan tracking barang secara real-time" />
             <ProjectCard title="Pengembangan API Notifikasi WhatsApp"
