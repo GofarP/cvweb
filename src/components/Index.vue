@@ -94,7 +94,7 @@
         </section>
 
         <footer class="bg-cyan-600 text-white text-center p-6">
-            <p>© 2025 Gofar Putra Perdana. All rights reserved.</p>
+            <p class="opacity-80">© {{ new Date().getFullYear() }} Gofar Putra Perdana. All rights reserved.</p>
         </footer>
     </div>
 </template>
