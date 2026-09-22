@@ -164,20 +164,22 @@
         <SectionTitle title="Karya & Portofolio" />
         <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 mt-12">
           
+          <!-- PT Ghimli Indonesia -->
           <ProjectCard class="project-item"
-            title="Sistem Informasi Manajemen Kantor (Simentor)"
-            company="Freelance (Bawaslu Batam)"
-            description="Sistem informasi berbasis web yang dirancang untuk mengoptimalkan alur koordinasi antar pegawai, pelacakan instruksi tugas, serta memfasilitasi evaluasi kinerja pegawai (Bawaslu Batam)."
-            :images="['Simentor Coordination.png', 'Simentor User.png', 'Simetor Instruction.png']"
+            title="Machine App"
+            company="PT Ghimli Indonesia"
+            description="Aplikasi manajemen mesin terpusat. Mencakup dashboard pemantauan data mesin yang komprehensif serta landing page yang informatif."
+            :images="['Machine App Dashboard.png', 'Machine App Machine List.png', 'Machine App Landing Page.png']"
           />
 
           <ProjectCard class="project-item"
-            title="Vending Machine IoT terintegrasi Mobile"
-            company="Freelance"
-            description="Prototipe sistem Vending Machine berbasis IoT yang terhubung dengan aplikasi mobile. Memiliki fitur kontrol akses berbasis role (Employee, Department, Machine) dan manajemen stok mesin secara real-time."
-            :images="['Vending IOT Mobile Dashboard.png', 'Vending IOT Mobile Department Menu.png', 'Vending IOT Mobile Machine Menu.png', 'Vending IOT Role.png', 'Vending IOT Vending Machine.png', 'vending IOT Employee.png']"
+            title="Cutting App"
+            company="PT Ghimli Indonesia"
+            description="Aplikasi pengaturan dan operasional mesin cutting berbasis Android dan web untuk meningkatkan efisiensi proses di lapangan."
+            :images="['Cutting App Landing Page.png', 'Cutting App Android Management.png', 'Cutting App IOT.png']"
           />
 
+          <!-- PT Wajah Siba Nusantara -->
           <ProjectCard class="project-item"
             title="Men Cargo (mencargo.id)"
             company="PT Wajah Siba Nusantara"
@@ -200,24 +202,25 @@
           />
 
           <ProjectCard class="project-item"
-            title="Machine App"
-            company="PT Ghimli Indonesia"
-            description="Aplikasi manajemen mesin terpusat. Mencakup dashboard pemantauan data mesin yang komprehensif serta landing page yang informatif."
-            :images="['Machine App Dashboard.png', 'Machine App Machine List.png', 'Machine App Landing Page.png']"
-          />
-
-          <ProjectCard class="project-item"
-            title="Cutting App"
-            company="PT Ghimli Indonesia"
-            description="Aplikasi pengaturan dan operasional mesin cutting berbasis Android dan web untuk meningkatkan efisiensi proses di lapangan."
-            :images="['Cutting App Landing Page.png', 'Cutting App Android Management.png', 'Cutting App IOT.png']"
-          />
-
-          <ProjectCard class="project-item"
             title="Aplikasi Mobile Tracking"
             company="PT Wajah Siba Nusantara"
             description="Aplikasi cross-platform berbasis Flutter untuk memfasilitasi cek harga tarif ekspedisi dan tracking keberadaan barang secara real-time."
             :images="['Siba Apps Mobile Tracking.jpeg', 'Mobile Price check feature.jpeg']"
+          />
+
+          <!-- Freelance -->
+          <ProjectCard class="project-item"
+            title="Sistem Informasi Manajemen Kantor (Simentor)"
+            company="Freelance (Bawaslu Batam)"
+            description="Sistem informasi berbasis web yang dirancang untuk mengoptimalkan alur koordinasi antar pegawai, pelacakan instruksi tugas, serta memfasilitasi evaluasi kinerja pegawai (Bawaslu Batam)."
+            :images="['Simentor Coordination.png', 'Simentor User.png', 'Simetor Instruction.png']"
+          />
+
+          <ProjectCard class="project-item"
+            title="Vending Machine IoT terintegrasi Mobile"
+            company="Freelance"
+            description="Prototipe sistem Vending Machine berbasis IoT yang terhubung dengan aplikasi mobile. Memiliki fitur kontrol akses berbasis role (Employee, Department, Machine) dan manajemen stok mesin secara real-time."
+            :images="['Vending IOT Mobile Dashboard.png', 'Vending IOT Mobile Department Menu.png', 'Vending IOT Mobile Machine Menu.png', 'Vending IOT Role.png', 'Vending IOT Vending Machine.png', 'vending IOT Employee.png']"
           />
 
           <ProjectCard class="project-item"
