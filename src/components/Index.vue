@@ -179,6 +179,20 @@
             :images="['Cutting App Landing Page.png', 'Cutting App Android Management.png', 'Cutting App IOT.png']"
           />
 
+          <ProjectCard class="project-item"
+            title="IoT Sewer Attendance"
+            company="PT Ghimli Indonesia"
+            description="Sistem IoT untuk memindai dan mencatat kehadiran (attendance) operator sewing secara otomatis berdasarkan line produksi guna meningkatkan akurasi data."
+            :images="['IOT_Sewer_Attendance.jpg']"
+          />
+
+          <ProjectCard class="project-item"
+            title="IoT Fabric Stock (RFID)"
+            company="PT Ghimli Indonesia"
+            description="Sistem IoT berbasis RFID yang dirancang khusus untuk memantau proses stock in dan stock out dari bundle fabric secara real-time."
+            :images="['IOT_Fabric_Stock.jpg']"
+          />
+
           <!-- PT Wajah Siba Nusantara -->
           <ProjectCard class="project-item"
             title="Men Cargo (mencargo.id)"
