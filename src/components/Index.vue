@@ -231,7 +231,7 @@
           />
 
           <ProjectCard class="project-item"
-            title="Vending Machine IoT terintegrasi Mobile"
+            title="Vending Machine IoT terintegrasi Mobile dan Web"
             company="Freelance"
             description="Prototipe sistem Vending Machine berbasis IoT yang terhubung dengan aplikasi mobile. Memiliki fitur kontrol akses berbasis role (Employee, Department, Machine) dan manajemen stok mesin secara real-time."
             :images="['Vending IOT Mobile Dashboard.png', 'Vending IOT Mobile Department Menu.png', 'Vending IOT Mobile Machine Menu.png', 'Vending IOT Role.png', 'Vending IOT Vending Machine.png', 'vending IOT Employee.png']"
