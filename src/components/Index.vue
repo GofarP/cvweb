@@ -172,6 +172,13 @@
           />
 
           <ProjectCard class="project-item"
+            title="Vending Machine IoT terintegrasi Mobile"
+            company="Freelance"
+            description="Prototipe sistem Vending Machine berbasis IoT yang terhubung dengan aplikasi mobile. Memiliki fitur kontrol akses berbasis role (Employee, Department, Machine) dan manajemen stok mesin secara real-time."
+            :images="['Vending IOT Mobile Dashboard.png', 'Vending IOT Mobile Department Menu.png', 'Vending IOT Mobile Machine Menu.png', 'Vending IOT Role.png', 'Vending IOT Vending Machine.png', 'vending IOT Employee.png']"
+          />
+
+          <ProjectCard class="project-item"
             title="Men Cargo (mencargo.id)"
             company="PT Wajah Siba Nusantara"
             description="Platform web operasional ekspedisi Men Cargo dengan fitur tracking resi, pengecekan tarif, manajemen manifes order, dan pengelolaan area data pengiriman."
@@ -193,23 +200,16 @@
           />
 
           <ProjectCard class="project-item"
-            title="Aplikasi Vending Machine IoT"
+            title="Machine App"
             company="PT Ghimli Indonesia"
-            description="Platform mobile dan dashboard terintegrasi untuk manajemen Vending Machine berbasis IoT. Dilengkapi menu per departemen, pemantauan status mesin, hingga antarmuka pegawai."
-            :images="['Vending IOT Mobile Dashboard.png', 'Vending IOT Mobile Department Menu.png', 'Vending IOT Mobile Machine Menu.png', 'Vending IOT Vending Machine.png', 'Vending IOT Role.png', 'vending IOT Employee.png']"
-          />
-
-          <ProjectCard class="project-item"
-            title="Machine App (IoT)"
-            company="PT Ghimli Indonesia"
-            description="Aplikasi manajemen mesin yang didukung infrastruktur IoT. Mencakup dashboard pemantauan komprehensif serta landing page yang informatif."
+            description="Aplikasi manajemen mesin terpusat. Mencakup dashboard pemantauan data mesin yang komprehensif serta landing page yang informatif."
             :images="['Machine App Dashboard.png', 'Machine App Machine List.png', 'Machine App Landing Page.png']"
           />
 
           <ProjectCard class="project-item"
-            title="Cutting App (IoT)"
+            title="Cutting App"
             company="PT Ghimli Indonesia"
-            description="Aplikasi pengaturan dan operasional mesin cutting dengan integrasi IoT berbasis Android dan web."
+            description="Aplikasi pengaturan dan operasional mesin cutting berbasis Android dan web untuk meningkatkan efisiensi proses di lapangan."
             :images="['Cutting App Landing Page.png', 'Cutting App Android Management.png', 'Cutting App IOT.png']"
           />
 
