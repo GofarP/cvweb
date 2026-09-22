@@ -13,6 +13,7 @@
 
       <div class="bg-white p-3 rounded-2xl border-[3px] border-[#222] shadow-[4px_4px_0_0_#222] flex flex-col gap-4 hidden md:flex">
         <a href="#hero" class="w-4 h-4 border-2 border-[#222] rounded-full transition-all duration-300 hover:bg-[#0b8b45] hover:scale-125" :class="activeSection === 'hero' ? 'bg-[#0b8b45] scale-125' : 'bg-[#f9f9f4]'"></a>
+        <a href="#skills" class="w-4 h-4 border-2 border-[#222] rounded-full transition-all duration-300 hover:bg-[#0b8b45] hover:scale-125" :class="activeSection === 'skills' ? 'bg-[#0b8b45] scale-125' : 'bg-[#f9f9f4]'"></a>
         <a href="#experience" class="w-4 h-4 border-2 border-[#222] rounded-full transition-all duration-300 hover:bg-[#0b8b45] hover:scale-125" :class="activeSection === 'experience' ? 'bg-[#0b8b45] scale-125' : 'bg-[#f9f9f4]'"></a>
         <a href="#organization" class="w-4 h-4 border-2 border-[#222] rounded-full transition-all duration-300 hover:bg-[#0b8b45] hover:scale-125" :class="activeSection === 'organization' ? 'bg-[#0b8b45] scale-125' : 'bg-[#f9f9f4]'"></a>
         <a href="#projects" class="w-4 h-4 border-2 border-[#222] rounded-full transition-all duration-300 hover:bg-[#0b8b45] hover:scale-125" :class="activeSection === 'projects' ? 'bg-[#0b8b45] scale-125' : 'bg-[#f9f9f4]'"></a>
@@ -80,6 +81,44 @@
 
     <!-- Visual Divider -->
     <div class="w-full border-t-[3px] border-[#222] bg-[#0b8b45] h-6 shadow-[0_4px_0_0_#222] relative z-20"></div>
+
+    <!-- Skills Section -->
+    <section id="skills" class="px-6 max-w-5xl mx-auto observe-section" :class="isFullscreen ? 'min-h-screen pt-28 pb-12 flex flex-col' : 'py-20 flex flex-col'">
+      <div class="reveal-fade-up">
+        <SectionTitle title="Technical Skills" />
+        
+        <div class="mt-12 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-6">
+          <SkillCard label="JavaScript" img="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
+          <SkillCard label="TypeScript" img="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" />
+          <SkillCard label="PHP" img="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg" />
+          <SkillCard label="C#" img="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" />
+          <SkillCard label="C++" img="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" />
+          <SkillCard label="Python" img="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" />
+          <SkillCard label="Kotlin" img="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kotlin/kotlin-original.svg" />
+          <SkillCard label="HTML5" img="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
+          <SkillCard label="CSS3" img="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" />
+          <SkillCard label="React" img="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
+          <SkillCard label="Vue" img="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg" />
+          <SkillCard label="Next.js" img="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" />
+          <SkillCard label="Nuxt" img="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nuxtjs/nuxtjs-original.svg" />
+          <SkillCard label="Tailwind" img="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" />
+          <SkillCard label="Laravel" img="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg" />
+          <SkillCard label="ASP.NET" img="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dotnetcore/dotnetcore-original.svg" />
+          <SkillCard label="MySQL" img="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" />
+          <SkillCard label="PostgreSQL" img="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" />
+          <SkillCard label="Flutter" img="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flutter/flutter-original.svg" />
+          <SkillCard label="Android" img="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/android/android-original.svg" />
+          <SkillCard label="Jetpack" img="https://developer.android.com/static/images/jetpack/compose/compose-logo.svg" />
+          <SkillCard label="Arduino" img="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/arduino/arduino-original.svg" />
+          <SkillCard label="IoT / ESP32" img="https://img.icons8.com/?size=100&id=11364&format=png&color=000000" />
+          <SkillCard label="Git" img="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" />
+          <SkillCard label="Linux" img="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Visual Divider -->
+    <div class="w-full border-t-[3px] border-[#222] bg-[#f9f9f4] h-6 shadow-[0_4px_0_0_#222] relative z-20"></div>
 
     <!-- Experience Section -->
     <section id="experience" class="px-6 max-w-5xl mx-auto observe-section" :class="isFullscreen ? 'min-h-screen pt-28 pb-12 flex flex-col' : 'py-20 flex flex-col'">
@@ -214,7 +253,7 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 
 const isFullscreen = ref(false);
 const activeSection = ref('hero');
-const sectionsList = ['hero', 'experience', 'organization', 'projects'];
+const sectionsList = ['hero', 'skills', 'experience', 'organization', 'projects'];
 
 const toggleFullScreen = () => {
   if (!document.fullscreenElement) {
